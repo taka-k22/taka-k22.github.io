@@ -10808,6 +10808,9 @@ article.article .article-meta,
 article.article .article-tags {
   color: #848484;
 }
+article.article .title {
+  font-family: Georgia, 'Times New Roman', 'Noto Serif JP', serif;
+}
 article.article .article-meta {
   overflow-x: auto;
   margin-bottom: 0.5rem;
@@ -10816,7 +10819,7 @@ article.article .content {
   word-wrap: break-word;
   font-size: 1.1rem;
   font-family: Georgia, 'Times New Roman', 'Noto Serif JP', serif;
-  line-height: 1.5;
+  line-height: 2.25;
 }
 article.article .content h1 {
   font-size: 1.75em;
