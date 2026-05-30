@@ -10940,20 +10940,6 @@ a.article-nav-next span {
   word-wrap: break-word;
   white-space: normal;
 }
-.comments {
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #dbdbdb;
-}
-.comments .comment-title {
-  margin-bottom: 1rem;
-  font-family: Georgia, 'Times New Roman', 'Noto Serif JP', serif;
-  font-size: 1.25rem;
-  font-weight: 400;
-}
-.comments #disqus_thread {
-  margin-top: 0.5rem;
-}
 .navbar-main {
   box-shadow: none;
 }
