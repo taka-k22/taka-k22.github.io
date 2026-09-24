@@ -10940,6 +10940,88 @@ a.article-nav-next span {
   word-wrap: break-word;
   white-space: normal;
 }
+.local-reactions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+  flex-wrap: wrap;
+}
+.local-reaction {
+  border: none;
+  background: transparent;
+  color: #cdcdcd;
+  cursor: pointer;
+  font: inherit;
+  min-width: 4rem;
+  padding: 0.25rem;
+  text-align: center;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+.local-reaction:hover,
+.local-reaction.is-active {
+  color: #02d7f2;
+}
+.local-reaction:hover {
+  transform: translateY(-1px);
+}
+.local-reaction-emoji {
+  display: block;
+  font-size: 1.75rem;
+  line-height: 1;
+}
+.local-reaction-count {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.local-reaction-label {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+.local-comments {
+  border-top: 1px solid #dbdbdb;
+  padding-top: 1.25rem;
+}
+.local-comment-count {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.local-comment-form {
+  margin-bottom: 1.5rem;
+}
+.local-comment-form textarea {
+  resize: vertical;
+}
+.local-comment-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.75rem;
+}
+.local-comment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.local-comment-item {
+  border-top: 1px solid #dbdbdb;
+  padding-top: 1rem;
+}
+.local-comment-date {
+  display: block;
+  color: #848484;
+  font-size: 0.8rem;
+  margin-bottom: 0.35rem;
+}
+.local-comment-body {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
 .navbar-main {
   box-shadow: none;
 }
